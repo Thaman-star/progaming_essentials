@@ -1,0 +1,323 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #020305;
+}
+
+.header {
+    display: flex;
+    padding: 0 122.75px;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 72px;
+    position: fixed;
+}
+
+.logo {
+    display: flex;
+
+}
+
+.thaman {
+    color: #EEF0F7;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    letter-spacing: -0.64px;
+    text-decoration: none;
+}
+
+.punt {
+    color: #6F7EE8;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 16px;
+    letter-spacing: -0.64px;
+    text-decoration: none;
+}
+
+.btnsall {
+    display: flex;
+    gap: 25.6px;
+    padding-left: 905px;
+
+}
+
+.homebtn {
+    color: #EEF0F7;
+    font-family: Manrope;
+    font-size: 11.52px;
+    font-weight: 500;
+    text-decoration: none;
+    border-bottom: #6F7EE8 solid 1px;
+}
+
+.btns {
+    color: #8B91A1;
+    font-family: Manrope;
+    font-size: 11.52px;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    border-bottom: black solid 1px;
+}
+
+.btns:hover {
+    color: white;
+    border-bottom: #6F7EE8 solid 1px;
+}
+
+.fakebtn {
+    color: #B7BCC9;
+    font-family: "DM Mono";
+    font-size: 10.08px;
+    font-weight: 500;
+    padding: 4.8px 9.92px;
+    border-radius: 4px;
+    border: 0.8px solid #1C202A;
+    background: transparent;
+}
+
+.ikben {
+    display: flex;
+    justify-content: center;
+    gap: 112px;
+    padding-top: 181px;
+}
+
+.fakebtns {
+    display: flex;
+    gap: 7.2px;
+}
+
+.ikbentext {
+    color: #EEF0F7;
+    font-family: Manrope;
+    font-size: 81.323px;
+    font-weight: 500;
+    line-height: 79.697px;
+    letter-spacing: -5.286px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.ikbentext1 {
+    color: #6F7EE8;
+    font-family: Manrope;
+    font-size: 81.323px;
+    font-weight: 500;
+    line-height: 79.697px;
+    letter-spacing: -5.286px;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.ikbentext2 {
+    color: #8B91A1;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26.4px;
+}
+
+.knoppen {
+    display: flex;
+    gap: 11.2px;
+}
+
+.knop1 {
+    display: flex;
+    gap: 24px;
+    border-radius: 3.2px;
+    border: 0.8px solid #6F7EE8;
+    background: #6F7EE8;
+    padding: 12.8px 18.4px;
+    align-items: baseline;
+
+}
+
+.echtbtn {
+    color: #F7F8FF;
+    font-family: Manrope;
+    font-size: 11.2px;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.echtebtn {
+    color: #F7F8FF;
+    font-family: Manrope;
+    font-size: 11.2px;
+    line-height: normal;
+}
+
+.knop2 {
+    border-radius: 3.2px;
+    border: 0.8px solid #1C202A;
+    display: flex;
+    gap: 24px;
+    border-radius: 3.2px;
+    padding: 12.8px 18.4px;
+    align-items: baseline;
+}
+
+.scrollbtn {
+    color: #8B91A1;
+    font-family: Manrope;
+    font-size: 10.4px;
+    font-weight: 400;
+    line-height: 15.6px;
+    text-decoration: none;
+}
+
+.scrollpijl {
+    color: #6F7EE8;
+    font-family: Manrope;
+    font-size: 10.4px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.6px;
+    text-decoration: none;
+}
+
+.scrollbtns {
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gurwara {
+    color: #8B91A1;
+    font-family: Manrope;
+    font-size: 12.8px;
+    font-weight: 700;
+    line-height: 19.2px;
+    padding-top: 32px;
+}
+
+.soft {
+    color: #8B91A1;
+    text-align: center;
+    font-family: "DM Mono";
+    font-size: 9.92px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 32px;
+}
+
+.contactbtn {
+    color: #8B91A1;
+    font-family: "DM Mono";
+    font-size: 10.88px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    justify-content: right;
+    padding:  16px 0;
+}
+
+.contactbtns {
+    border-top: 0.8px solid #1C202A;
+    border-bottom: 0.8px solid #1C202A;
+    display: flex;
+    justify-content: baseline;
+    gap: 30px;
+    padding-right: 53px;
+    padding-top: 16px;
+}
+
+.onderkant {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    border-top: 0.8px solid #1C202A;
+    
+
+}
+
+.onderkant>* {
+    margin: 0;
+}
+
+.middenboven {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+
+}
+#midden{
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+.middentext {
+    color: #8995FF;
+    font-family: "DM Mono";
+    font-size: 10.88px;
+    font-weight: 400;
+    line-height: 16.32px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.middentext1{
+   color: #EEF0F7;
+font-family: Manrope;
+font-size: 92.064px;
+font-weight: 500;
+line-height: 78.254px;
+letter-spacing: -5.984px; 
+margin: 0;
+}
+span{
+    color: #6F7EE8;
+}
+.fototext{
+    display: flex;
+    padding-top: 43.8px;
+    justify-content: center;
+    gap: 107px;
+}
+.goedendoelfoto{
+width: 489px  ;
+height: 274;
+}
+.goed1{
+    color: #8995FF;
+font-family: "DM Mono";
+font-size: 10.88px;
+font-weight: 400;
+line-height: 16.32px; 
+text-transform: uppercase;
+}
+.goed2{
+    color: #EEF0F7;
+font-family: Manrope;
+font-size: 76.72px;
+font-weight: 400;
+line-height: 69.048px;
+letter-spacing: -4.603px;
+}
+.goed3{
+    color: #8B91A1;
+font-family: Manrope;
+font-size: 16px;
+font-weight: 400;
+line-height: 27.2px;
+}
+.goedbtn1{
+    color: #EEF0F7;
+font-family: "DM Mono";
+font-size: 10.88px;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+text-decoration: none;
+}
