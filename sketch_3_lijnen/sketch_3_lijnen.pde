@@ -1,0 +1,9 @@
+fullScreen();
+background(126,18,29);
+strokeWeight(10);
+stroke(135,58,220);
+line(700,20,700,800);
+stroke(40,60,69);
+line(900,500,100,500);
+stroke(100,200,160);
+line(900,300,100,250);
