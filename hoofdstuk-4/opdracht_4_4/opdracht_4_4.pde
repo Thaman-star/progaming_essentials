@@ -1,4 +1,6 @@
-float jee = 4.34329;
+float jee = 4.976142;
 
-jee = round (jee);
+jee = jee * 10;
+jee = (int) jee;
+jee = jee / 10.0;
 println(jee);
