@@ -1,5 +1,5 @@
-int x = 700;
-int y = 500;
+int x = 900;
+int y = 700;
 fullScreen();
 background(150, 56, 34);
 
